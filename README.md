@@ -108,4 +108,4 @@ The classes are:
 # Next Steps
 * Validate group of checkbox or radio buttons
 * Dynamic css class names
-* Set mask format in fields via data attribute (Example (11) 1111-1111)
+* Set mask format in fields via data attribute. Example: (11) 1111-1111)
