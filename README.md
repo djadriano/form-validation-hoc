@@ -1,7 +1,9 @@
-# Form Validation - React High Order Component
+# FORM VALIDATION - REACT HIGH ORDER COMPONENT
 
 High Order Component that help you validate form and your fields easily!
 Just use HTML Markup for your form and fields and set some attributes.
+
+[See example in codesandbox.io](https://codesandbox.io/s/wwn1k867kl)
 
 # Field Attributes
 
@@ -102,7 +104,7 @@ The classes are:
 * form-hoc-change--invalid (if field is invalid during the onChange)
 * form-hoc-blur--valid (if field is valid during the onBlur)
 * form-hoc-blur--invalid (if field is invalid during the onBlur)
- 
+
 # Next Steps
 * Validate group of checkbox or radio buttons
 * Dynamic css class names
