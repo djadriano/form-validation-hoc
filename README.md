@@ -1,4 +1,4 @@
-# FORM VALIDATION - REACT HIGH ORDER COMPONENT
+# Fom Validation - React High Order Component
 
 High Order Component that help you validate form and your fields easily!
 Just use HTML Markup for your form and fields and set some attributes.
