@@ -90,7 +90,7 @@ class FormComponent extends Component {
 const FormComponentWithForm = withForm(FormComponent);
 ```
 
-# Props that you component will receive
+# Props that your component will receive
 
 | Name    | Description                                                                             |
 | --------- | ------------------------------------------------------------------------------------------ |
