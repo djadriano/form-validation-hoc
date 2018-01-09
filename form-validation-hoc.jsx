@@ -85,8 +85,6 @@ export const withForm = WrappedComponent => {
     // -------------------------------------------------------------------------
 
     checkFieldValidity(event) {
-      event.target.checkValidity();
-
       event.target.validity.valid
         ? this.setFieldValid(event)
         : this.setFieldInvalid(event);
