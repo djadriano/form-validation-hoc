@@ -125,10 +125,17 @@ export const withForm = WrappedComponent => {
 
     // -------------------------------------------------------------------------
 
+    updateState(newState) {
+      this.setState(...this.state, newState);
+    }
+
+    // -------------------------------------------------------------------------
+
     render() {
       const newProps = {
         isFormValid: this.state.isFormValid,
-        onSubmit: this.onSubmit.bind(this)
+        onSubmit: this.onSubmit.bind(this),
+        updateState: this.updateState.bind(this)
       };
 
       return <WrappedComponent {...this.props} {...newProps} />;
